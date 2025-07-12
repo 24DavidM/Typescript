@@ -9,6 +9,11 @@
     "start:interfaces": "tsc basics/interfaces.ts --outdir dist/ && node dist/interfaces.js",
     "start:customTypes": "tsc basics/customTypes.ts --outdir dist/ && node dist/customTypes.js",
     "start:classes": "tsc basics/classes.ts --outdir dist/ && node dist/classes.js",
+    "start:function": "tsc basics/function.ts --outdir dist/ && node dist/function.js",
+    "start:namespace": "tsc advanced/namespaces/namespaces.ts --outFile dist/namespaces.js && node dist/namespaces.js",
+    "start:namespaces": "tsc advanced/namespaces/namespaces.ts advanced/namespaces/index.ts --outFile dist/namespacess.js && node dist/namespacess.js",
+    "start:module": "tsc advanced/modules/index.ts --outdir dist/modules.js && node dist/modules.js",
+    "start:generics": "tsc advanced/generics.ts --outdir dist/ && node dist/generics.js",
 
     "test": "echo \"Error: no test specified\" && exit 1"
 
